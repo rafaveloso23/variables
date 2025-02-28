@@ -50,13 +50,21 @@ locals {
   ])
 }
 
-output "vars_data" {
-  value = local.vars_data
+# output "vars_data" {
+#   value = local.vars_data
   
-}
+# }
  
-output "json_payload" {
-  value = jsonencode({
+# output "json_payload" {
+#   value = jsonencode({
+#     vars = {
+#       data = local.vars_data
+#     }
+#   })
+# }
+
+locals {
+  json_payload = jsonencode({
     vars = {
       data = local.vars_data
     }

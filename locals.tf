@@ -1,4 +1,3 @@
-
 locals {
   vars_data = [
     for key, value in var.vars : {
@@ -15,13 +14,37 @@ locals {
 }
 
 locals {
-  json_payload = jsonencode({
-    relationships = {
-      vars = {
-        data = local.vars_data
-      }
+  json_payload = jsonencode(local.vars_data)
+}
+
+locals {
+  intra_workspace_data = <<EOF
+{
+    "data": {
+        "type": "workspaces",
+        "attributes": {
+            "name": "tetse",
+            "description": "teste"
+        },
+        "relationships": {
+            "project": {
+                "data": {
+                    "id": "testes",
+                    "type": "project"
+                }
+            },
+            "vars": {
+                "data": [${local.json_payload}]
+            }
+        }
     }
-  })
+}
+EOF 
+}
+
+output "intra_workspace_data" {
+  value = local.intra_workspace_data
+  
 }
 
 output "vars_data_only" {

@@ -1,1 +1,1 @@
-"[{\"attributes\":{\"category\":\"terraform\",\"key\":\"ambiente\",\"sensitive\":false,\"value\":\"dv\"},\"type\":\"vars\"},{\"attributes\":{\"category\":\"terraform\",\"key\":\"criar_storage_account\",\"sensitive\":false,\"value\":\"true\"},\"type\":\"vars\"}]"
+// "[{\"attributes\":{\"category\":\"terraform\",\"key\":\"ambiente\",\"sensitive\":false,\"value\":\"dv\"},\"type\":\"vars\"},{\"attributes\":{\"category\":\"terraform\",\"key\":\"criar_storage_account\",\"sensitive\":false,\"value\":\"true\"},\"type\":\"vars\"}]"

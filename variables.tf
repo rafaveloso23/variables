@@ -1,3 +1,4 @@
 variable "vars" {
-  type = map(any)
+  type    = map(any)
+  #default = {}
 }

@@ -1,34 +1,34 @@
-{
-  "data": {
-    "type": "workspaces",
-    "attributes": {
-      "name": "fefe-e-rafinha",
-      "description": "Projeto de teste teste-onboarding.",
-      "auto_apply": true
-    },
-    "relationships": {
-      "vars": {
-        "data": [
-          {
-            "type": "vars",
-            "attributes": {
-              "key": "ambiente",
-              "value": "dv",
-              "category": "terraform",
-              "sensitive": false
-            }
-          },
-          {
-            "type": "vars",
-            "attributes": {
-              "key": "criar_storage_account",
-              "value": "true",
-              "category": "terraform",
-              "sensitive": false
-            }
-          }
-        ]
-      }
-    }
-  }
-}
+// {
+//   "data": {
+//     "type": "workspaces",
+//     "attributes": {
+//       "name": "fefe-e-rafinha",
+//       "description": "Projeto de teste teste-onboarding.",
+//       "auto_apply": true
+//     },
+//     "relationships": {
+//       "vars": {
+//         "data": [
+//           {
+//             "type": "vars",
+//             "attributes": {
+//               "key": "ambiente",
+//               "value": "dv",
+//               "category": "terraform",
+//               "sensitive": false
+//             }
+//           },
+//           {
+//             "type": "vars",
+//             "attributes": {
+//               "key": "criar_storage_account",
+//               "value": "true",
+//               "category": "terraform",
+//               "sensitive": false
+//             }
+//           }
+//         ]
+//       }
+//     }
+//   }
+// }

@@ -1,16 +1,16 @@
-{
-    "vars": {
-      "data": [
-        {
-          "type": "vars",
-          "attributes": {
-            "key": "ambiente",
-            "value": "${var.ambiente}",
-            "category": "terraform",
-            "sensitive": false
-          }
-        }
-      ]
-    }
-  }
+// {
+//     "vars": {
+//       "data": [
+//         {
+//           "type": "vars",
+//           "attributes": {
+//             "key": "ambiente",
+//             "value": "${var.ambiente}",
+//             "category": "terraform",
+//             "sensitive": false
+//           }
+//         }
+//       ]
+//     }
+//   }
   

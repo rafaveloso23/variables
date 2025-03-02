@@ -1,0 +1,47 @@
+{
+    "data": {
+      "type": "workspaces",
+      "attributes": {
+        "name": "teste-onboarding",
+        "description": "Projeto de teste teste-onboarding.",
+        "auto_apply": true
+      },
+      "relationships": {
+        "vars": {
+          "data": [
+            {
+              "type": "vars",
+              "attributes": {
+                "key": "ambiente",
+                "value": "dv",
+                "category": "terraform",
+                "sensitive": false,
+                "hcl": true
+              }
+            },
+            {
+              "type": "vars",
+              "attributes": {
+                "key": "criar_storage_account",
+                "value": "true",
+                "category": "terraform",
+                "sensitive": false,
+                "hcl": true
+              }
+            },
+            {
+              "type": "vars",
+              "attributes": {
+                "key": "resources_string_name",
+                "value": "onboarding",
+                "category": "terraform",
+                "sensitive": false,
+                "hcl": true
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

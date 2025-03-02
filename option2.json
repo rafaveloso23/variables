@@ -1,0 +1,35 @@
+{
+    "type": "workspace",
+    "attributes": {
+      "name": "teste-onboarding1231234",
+      "description": "Projeto de teste teste-onboarding.",
+      "auto_apply": true
+    },
+    "relationships": {
+      "vars": {
+        "data": {
+          "type": "vars",
+          "attributes": {
+            "key": "vars",
+            "value": [{
+              "ambiente": "dv1",
+              "char_storage_account": true,
+              "app": "teste1234",
+              "resources_string_name": "teste23",
+              "bo": "123",
+              "centro_custo": "pcca",
+              "componente": "hcp",
+              "departamento": "123",
+              "domínio": "auditil",
+              "empresa": "bradesco",
+              "generalmente": "hcp",
+              "provide": "azure",
+              "to": "toff"
+            }],
+            "category": "terraform",
+            "sensible": false
+          }
+        }
+      }
+    }
+  }

@@ -1,5 +1,5 @@
 locals {
-  intra_workspace_data = jsondecode(jsonencode({
+  infra_workspace_data = jsondecode(jsonencode({
     data = {
       type       = "workspaces"
       attributes = {
@@ -32,6 +32,6 @@ locals {
   }))
 }
 
-output "intra_workspace_data" {
-  value = local.intra_workspace_data
+output "infra_workspace_data" {
+  value = jsonencode(local.infra_workspace_data)
 }

@@ -1,9 +1,16 @@
 variable "vars" {
-  type = any
-  # default = {
-  #   "map_example" = { foo = "bar", baz = 123 }
-  #   "list_example" = ["one", "two", "three"]
-  #   "bool_example" = true
-  #   "string_example" = "hello"
-  # }
+  type = map(any)
+  default = {
+    string_example = "hello"
+    create_storage_account = true
+    teste = 2
+  }
+}
+
+locals {
+  json_convert = jsonencode(var.vars)
+}
+
+output "locals_json_convert" {
+  value = local.json_convert
 }

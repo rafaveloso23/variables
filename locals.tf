@@ -31,7 +31,3 @@ locals {
     }
   }))
 }
-
-output "infra_workspace_data" {
-  value = jsonencode(local.infra_workspace_data)
-}
